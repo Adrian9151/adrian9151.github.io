@@ -21,8 +21,20 @@
 	<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+	<?php
+	
+	session_start();
+
+	if(isset($_SESSION['usuario']))
+	{
+		header("location: index.php");
+
+	}
+	session_destroy();
+
+?>
 	<main>
-		<form action="./home - Copy.html" method= "POST" class="formulario_login">
+		<form action="./home.html" method= "POST" class="formulario_login">
 			<img src="./img/FLEXLOGO.png" width="80" alt="">
 			<h2 class="form-title"> MIC LOGIN </h2>
 			<input type="text" placeholder="Username" name ="user">
