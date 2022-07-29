@@ -1,0 +1,71 @@
+body, html{
+	height:100%;
+	
+}
+
+body{
+	background-image: url(./img/fondolog.png);
+	background-position: center;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	font-family: Verdana;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-color: #006497;
+	background-attachment: fixed;
+}
+
+.formulario_login {
+	width:300px;
+	padding:40px;
+	background:#2f3542;
+	text-align:center;
+	border-radius:24px;
+}
+
+.form-title{
+	color:white;
+	text-transform:uppercase;
+	font-weight:500;
+}
+.formulario_login input[type="text"],
+.formulario_login input[type="password"],
+.formulario_login button[type="submit"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	padding:14px 10px;
+	text-align: center;
+	border:2px solid white;
+	width:200px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition:0.25s;
+}
+
+.formulario_login input[type="text"]:focus,
+.formulario_login input[type="password"]:focus {
+	width:280px;
+	border-color:#80DB0A;
+}
+
+.formulario_login button[type="submit"]{
+	border:0;
+	background:#034487;
+	cursor:pointer;	
+}
+
+.formulario_login button[type="submit"]:hover {
+	background:#80DB0A;
+	border: 2px solid white;
+	
+}
+

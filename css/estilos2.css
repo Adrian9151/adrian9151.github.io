@@ -1,0 +1,22 @@
+/*lector de pdf*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    /*padding: 20px;*/
+}
+body{
+    text-align: right;
+}
+.pdfview{
+    margin: auto;
+    display: block;
+    width: 1000px;
+    height: 95vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    , 0 6px 20px 0 rgba(0,0,0,0.19);
+}
